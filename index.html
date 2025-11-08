@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Addapta</title>
-    <link rel="stylesheet" href="general.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <nav></nav>
@@ -26,73 +26,162 @@
 
       <!-- ABOUT US -->
       <sections class="section_about_us">
-        <h3>Sobre</h3>
-        <p class="about_us_description">
-          Fundada em julho de 2025 a partir do projeto Gestores do Futuro, a
-          Addapta nasceu para transformar a forma como empresas se comunicam
-          consigo mesmas e com seus públicos. Nossa missão é atuar como a flecha
-          que aponta com precisão: orientar decisões financeiras, tornar a
-          linguagem mais eficiente e promover saúde e bem‑estar no ambiente de
-          trabalho. Trabalhamos com ética, empatia e uma abordagem hands‑on —
-          projetamos ações que geram aprendizado mensurável e resultados
-          sustentáveis, sem exigir que uma marca deixe de ser quem é.
-        </p>
-
-        <div>
-          <div class="flex_side_by_side">
-            <p class="about_us_title">Missão</p>
-            <img src="img/icons/mountains.svg" alt="Mountains" />
-          </div>
-          <p>
-            Ser a flecha que impulsiona pessoas rumo ao que realmente importa:
-            uma vida financeiramente saudável, comunicativamente fluida e
-            equilibrada na saúde. Nós guiamos com precisão, ajudamos com
-            propósito e miramos sempre no bem-estar integral.
-          </p>
+        <div class="heading_container">
+          <h3>Sobre</h3>
+          <img src="img/icons/about_us/info.svg" alt="info" />
         </div>
-        <div>
-          <div class="flex_side_by_side">
-            <p class="about_us_title">Visão</p>
-            <img src="img/icons/sunglasses.svg " alt="Sunglasses" />
+        <div class="about_us_description">
+          <div>
+            <div class="sub_about_us_container">
+              <div>
+                <img src="img/icons/about_us/folder-plus.svg" alt="fundada" />
+                <span>
+                  Fundada em julho de 2025 a partir do projeto Gestores do
+                  Futuro, a Addapta nasceu para transformar a forma como
+                  empresas se comunicam consigo mesmas e com seus públicos
+                </span>
+              </div>
+            </div>
           </div>
-          <p>
-            Construir uma trajetória reconhecida por transformar vidas com foco,
-            cuidado e direção clara. Queremos ser lembrados como aquela empresa
-            que não apenas apontou o caminho, mas também caminhou ao lado, rumo
-            ao alvo de cada cliente.
-          </p>
+
+          <div class="sub_about_us_container">
+            <div>
+              <span> Nossa missão é atuar como a flecha </span>
+              <img src="img/icons/about_us/navigation-arrow.svg" alt="flecha" />
+              <span>
+                que aponta com precisão: orientar decisões financeiras
+              </span>
+              <img src="img/icons/about_us/calculator.svg" alt="finanças" />
+              <span>, tornar a linguagem mais eficiente</span>
+              <img
+                src="img/icons/about_us/pencil-line.svg"
+                alt="escrita"
+              /><span> e promover saúde e bem‑estar </span>
+              <img src="img/icons/about_us/heart.svg" alt="saúde" />
+              <span> no ambiente de trabalho</span>
+              <img src="img/icons/about_us/briefcase.svg" alt="trabalho" />
+            </div>
+          </div>
+
+          <div class="sub_about_us_container">
+            <div>
+              <span> Trabalhamos com ética </span>
+              <img src="img/icons/about_us/scales.svg" alt="ética" />
+              <span
+                >, empatia e uma abordagem hands‑on — projetamos ações que geram
+                aprendizado mensurável e resultados sustentáveis</span
+              >
+
+              <img src="img/icons/about_us/tree.svg" alt="sustentável" />
+              <span>, sem exigir que uma marca deixe de ser quem é</span>
+            </div>
+          </div>
         </div>
-        <div>
-          <div class="flex_side_by_side">
-            <p class="about_us_title">Valores</p>
-            <img src="img/icons/users-three.svg" alt="Three people" />
+
+        <div class="mission_vision_values_container">
+          <div>
+            <div class="flex_side_by_side">
+              <p class="about_us_title">Missão</p>
+              <img src="img/icons/mountains.svg" alt="Mountains" />
+            </div>
+            <p class="mvc_description">
+              Ser a flecha que impulsiona pessoas rumo ao bem-estar integral:
+              financeiramente saudável, comunicativamente fluida e equilibrada
+              na saúde. Guiamos com precisão e miramos sempre no bem-estar de
+              cada pessoa
+            </p>
           </div>
-          <ul>
-            <li>
-              Foco no humano: como uma flecha que só faz sentido quando tem um
-              destino claro, nosso compromisso é com pessoas.
-            </li>
 
-            <li>
-              Precisão com empatia: buscamos entender antes de agir, sempre
-              mirando com responsabilidade.
-            </li>
+          <div>
+            <div class="flex_side_by_side">
+              <p class="about_us_title">Visão</p>
+              <img src="img/icons/sunglasses.svg " alt="Sunglasses" />
+            </div>
+            <p class="mvc_description">
+              Construir uma trajetória reconhecida por transformar vidas com
+              foco, cuidado e direção clara. Queremos ser lembrados como aquela
+              empresa que não apenas apontou o caminho, mas também caminhou ao
+              lado, rumo ao alvo de cada cliente
+            </p>
+          </div>
 
-            <li>
-              Força em movimento: acreditamos que evolução exige ação, e
-              colocamos energia real em cada projeto.
-            </li>
+          <div class="values_container">
+            <div class="flex_side_by_side">
+              <p class="about_us_title">Valores</p>
+              <img src="img/icons/users-three.svg" alt="Three people" />
+            </div>
+            <ul class="mvc_description">
+              <li>
+                <div class="values_list_container">
+                  <span> Foco no humano: </span>
+                  <img src="img/icons/values/person.svg" alt="" />
+                </div>
+                <p>
+                  como uma flecha que só faz sentido quando tem um destino
+                  claro, nosso compromisso é com pessoas
+                </p>
+              </li>
 
-            <li>
-              Alvo compartilhado: cada conquista de um cliente é também nossa,
-              porque crescemos juntos.
-            </li>
+              <li>
+                <div class="values_list_container">
+                  <span> Precisão com empatia: </span>
+                  <img src="img/icons/values/target.svg" alt="" />
+                </div>
+                <p>
+                  buscamos entender antes de agir, sempre mirando com
+                  responsabilidade
+                </p>
+              </li>
 
-            <li>
-              Três direções, um propósito: finanças, linguagem e saúde caminham
-              alinhadas, como hastes de uma mesma flecha.
-            </li>
-          </ul>
+              <li>
+                <div class="values_list_container">
+                  <span>Força em movimento:</span>
+                  <img src="img/icons/values/barbell.svg" alt="" />
+                </div>
+                <p>
+                  acreditamos que evolução exige ação, e colocamos energia real
+                  em cada projeto
+                </p>
+              </li>
+
+              <li>
+                <div class="values_list_container">
+                  <span> Alvo compartilhado: </span>
+                  <img src="img/icons/values/share-network.svg" alt="" />
+                </div>
+                <p>
+                  cada conquista de um cliente é também nossa, porque crescemos
+                  juntos.
+                </p>
+              </li>
+
+              <li>
+                <span class="centered_span">Três direções, um propósito:</span>
+                <div class="values_sub_desc">
+                  <div class="values_list_container_sub">
+                    <span>finanças;</span>
+                    <img
+                      src="img/icons/values/currency-circle-dollar.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="values_list_container_sub">
+                    <span>lingagem;</span>
+                    <img src="img/icons/values/translate.svg" alt="" />
+                  </div>
+                  <div class="values_list_container_sub">
+                    <span>saúde;</span>
+                    <img src="img/icons/values/ambulance.svg" alt="" />
+                  </div>
+                </div>
+
+                <span class="centered_span"
+                  >Todas caminham alinhadas, como hastes de uma mesma
+                  flecha</span
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </sections>
 

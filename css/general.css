@@ -23,6 +23,11 @@ Large: 1.8
 
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- Colors:
+    Main: #6636a3
+    Secondary: #ffd33d
+    Replacement color for yellow: #3D3D3D
 */
 
 * {
@@ -41,7 +46,7 @@ html {
 }
 
 body {
-  width: 40rem;
+  width: 70rem;
   margin: 0 auto;
 }
 
@@ -49,13 +54,35 @@ h3 {
   font-size: 3.6rem;
 }
 
+.heading_container {
+  border-radius: 1rem;
+  padding: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6rem;
+  background-color: #c4b5e8;
+}
+
+.heading_container h3 {
+  color: #6636a3;
+}
+
 p {
   font-size: 2rem;
 }
 
+li {
+  font-size: 2rem;
+}
 /* FLEX CONTAINERS */
 .flex_side_by_side {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+}
+
+.centered_span {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.6rem;
 }

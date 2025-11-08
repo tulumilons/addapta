@@ -1,0 +1,98 @@
+/* ***********************************************
+About us
+* ***********************************************/
+.sub_about_us_container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about_us_description div span {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.about_us_description div img {
+  padding-top: 1rem;
+  vertical-align: text-bottom;
+}
+
+.mission_vision_values_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
+}
+
+.values_container {
+  padding: 1.6rem;
+  width: 55rem;
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
+.flex_side_by_side {
+  background-color: #d5c7f5;
+  padding: 0.8rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.flex_side_by_side img {
+  background-color: #c4b5e8;
+  padding: 0.8rem;
+  border-radius: 10%;
+}
+
+.mission_vision_values_container {
+  margin-top: 3.6rem;
+}
+
+.mvc_description {
+  padding: 1.6rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+}
+
+.values_container ul {
+  list-style-position: inside;
+}
+
+.values_list_container {
+  display: inline-flex;
+  gap: 0.8rem;
+  align-items: center;
+  background-color: #d5c7f5;
+  padding: 0.4rem 0.8rem;
+}
+
+.values_list_container img {
+  margin-right: 1.6rem;
+  background-color: #c4b5e8;
+  border-radius: 10%;
+  padding: 0.8rem;
+}
+
+.values_list_container + p {
+  margin-top: 0.8rem;
+  margin-bottom: 3rem;
+  border-top: #c4b5e8 1rem dashed;
+  border-bottom: #c4b5e8 1rem dashed;
+}
+
+.values_list_container span {
+  padding: 1.6rem;
+}
+
+.values_sub_desc {
+  display: flex;
+  gap: 1.6rem;
+  justify-content: center;
+}
+
+.values_list_container_sub {
+  display: inline-flex;
+  gap: 0.8rem;
+  align-items: center;
+  background-color: #d5c7f5;
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 1.6rem;
+}
