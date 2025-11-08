@@ -50,6 +50,12 @@ body {
   margin: 0 auto;
 }
 
+.grid_middle {
+  width: 33.4rem;
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
 h3 {
   font-size: 3.6rem;
 }

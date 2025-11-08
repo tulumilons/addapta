@@ -1,6 +1,13 @@
 /* ***********************************************
 About us
 * ***********************************************/
+.section_hero {
+  margin: 4.8rem 0;
+}
+
+/* ***********************************************
+About us
+* ***********************************************/
 .sub_about_us_container {
   display: flex;
   align-items: center;
@@ -95,4 +102,57 @@ About us
   background-color: #d5c7f5;
   padding: 0.4rem 0.8rem;
   margin-bottom: 1.6rem;
+}
+
+/* ***********************************************
+Journey
+* ***********************************************/
+.section_journey {
+  margin: 4.8rem 0;
+}
+
+.section_journey .heading_container {
+  margin-bottom: 1.6rem;
+}
+
+/* ***********************************************
+Services
+* ***********************************************/
+.services_description {
+  margin: 1.6rem 0;
+}
+
+.services_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 3.2rem;
+}
+
+.services_container a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.services_container a:hover {
+  transform: translateY(-1rem);
+}
+
+.sc_content {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service_header_container {
+  display: flex;
+}
+
+.s_content_description {
+  padding: 1.6rem;
+}
+
+/* ***********************************************
+Testimonial
+* ***********************************************/
+.section_testimonial {
+  margin: 4.8rem 0;
 }
