@@ -26,8 +26,8 @@ Large: 1.8
 
 - Colors:
     Main: #6636a3
-    Secondary: #ffd33d
-    Replacement color for yellow: #3D3D3D
+    Secondary: #c4b5e8
+    Tertiary: #d5c7f5
 */
 
 * {
@@ -37,12 +37,9 @@ Large: 1.8
 }
 
 html {
-  /* font-size: 10px; */
-
-  /* 10px / 16px = 0.625 = 62.5% */
-  /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
